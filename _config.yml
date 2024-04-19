@@ -1,0 +1,28 @@
+title: Aleksandar Medarevic
+url: "https://www.aleksandarmedarevic.com"
+baseurl: ""
+description: "Aleksandar Medarevic Official Website"
+profile_picture: "https://pbs.twimg.com/profile_images/1575338826809180162/ahvEI1vc_400x400.jpg"
+
+markdown: kramdown
+#ins_logo: "./bits-logo.png"
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://www.researchgate.net/profile/Aleksandar-Medarevic"
+footer_text: "© Aleksandar Medarevic"
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "Publications"
+    link: "/publications"
+  - name: "Resume"
+    link: "resume.pdf"
+  - name: "Contact"
+    link: "contact"
