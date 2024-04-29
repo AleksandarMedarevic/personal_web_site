@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: inherit;
+            justify-content: space-around;
+            margin: 5em 15em 0em 15em;
+            column-gap: 5em;
+        }
+        .text-container{
+            flex: 50%;   
+        }
+        .text-container button, a{
+            width: 100%;
+            height: 30px; 
+            padding: 10px auto;  
+            background-color: lightgreen;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .image-container{
+            flex: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-container">
+            <h2>Hello world</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas exercitationem ducimus veritatis corporis ab porro id voluptatibus earum hic repellendus dicta, voluptas tenetur distinctio temporibus officia minus delectus deserunt magni.</p>
+            <a href="#"><button> <img src="/543530.png" width="20px" height="20" alt="">Buy me a coffee</button></a>
+            <h5>via Ko-Fi</h5>
+        </div>
+        <div class="image-container">
+            <img src="/donation.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
