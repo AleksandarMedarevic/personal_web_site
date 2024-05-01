@@ -38,6 +38,4 @@ is_contact: true
 
 {% include button.html %}
 
-via [![](Kofi-logo.png)](https://ko-fi.com)
-
 
