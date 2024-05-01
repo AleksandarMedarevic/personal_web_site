@@ -38,8 +38,6 @@ is_contact: true
 
 {% include button.html %}
 
-### [Buy Me a Coffee](https://ko-fi.com/aleksandar8232) 
-
 via [![](Kofi-logo.png)](https://ko-fi.com)
 
 
