@@ -35,6 +35,6 @@ is_contact: true
 
 ## [Buy Me a Coffee](https://ko-fi.com/aleksandar8232) 
 
-via [![](Kofi-logo.png)](ko-fi.com)
+via [![](Kofi-logo.png)](https://ko-fi.com)
 
 
