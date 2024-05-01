@@ -2,6 +2,15 @@
 layout: default
 is_contact: true
 ---
+<style>
+ img{
+    width: 70px;
+    height: auto:
+ }
+</style>
+
+
+
 
 - Professional Email: [aleksandar_medareviic@batut.org.rs](mailto:aleksandar_medareviic@batut.org.rs)
 - Personal Email: [aco.batut@gmail.com](mailto:aco.batut@gmail.com)
@@ -25,5 +34,6 @@ is_contact: true
 
 ## [Buy Me a Coffee](https://ko-fi.com/aleksandar8232) 
 
-via Ko-FI 
+via [![](Kofi-logo.png)](ko-fi.com)
+
 
