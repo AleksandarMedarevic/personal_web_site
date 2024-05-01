@@ -4,8 +4,9 @@ is_contact: true
 ---
 <style>
  img{
-    width: 70px;
-    height: auto:
+    width: 70px !important;
+    height: auto !important;
+    margin-bottom: -10px !important;
  }
 </style>
 
