@@ -21,7 +21,7 @@ nav:
   - name: "Home"
     link: "/"
   - name: "Publications"
-    link: "/publications"
+    link: "publications"
   - name: "Resume"
     link: "resume.pdf"
   - name: "Donate "
