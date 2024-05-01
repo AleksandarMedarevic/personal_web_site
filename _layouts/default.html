@@ -62,7 +62,7 @@
                 {% for x in site.nav %}
                     {% if x.name == "Resume" %}
                         <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
-                    {% else %}
+                    {% elseif %}
                     {% if x.name == "Home" %}
                         <li class="alignable pull-left nav-list"><a href="{{ site.url }}{{ site.baseurl }}">{{ x.name }}</a>
                     {% else %}
