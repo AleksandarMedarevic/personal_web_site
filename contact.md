@@ -32,6 +32,8 @@ is_contact: true
 2. [Twitter](https://twitter.com/amedarevic)
 3. [Facebook](https://www.facebook.com/acomfacetwitgoogleplus)
 
+---
+
 ## Donation
 
 ### [Buy Me a Coffee](https://ko-fi.com/aleksandar8232) 
@@ -39,3 +41,4 @@ is_contact: true
 via [![](Kofi-logo.png)](https://ko-fi.com)
 
 
+[<img src="https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/SERVICE-icon.svg" alt="Get it on SERVICE" height="32" />](https://example.com/...)
