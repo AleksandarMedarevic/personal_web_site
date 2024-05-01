@@ -2,7 +2,7 @@
 layout: default
 is_contact: true
 ---
-- Professional Email: [aleksandar_medareviic@batut.org.rs](mailto:aleksandar_medareviic@batut.org.rs)
+- Professional Email: [aleksandar_medarevic@batut.org.rs](mailto:aleksandar_medarevic@batut.org.rs)
 - Personal Email: [aco.batut@gmail.com](mailto:aco.batut@gmail.com)
 - [Researchgate](https://www.researchgate.net/profile/Aleksandar-Medarevic)
 - [Google Scholar](https://scholar.google.com/citations?user=hXYqPB4AAAAJ&hl=en)
