@@ -41,4 +41,7 @@ is_contact: true
 via [![](Kofi-logo.png)](https://ko-fi.com)
 
 
-[<img src="https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/SERVICE-icon.svg" alt="Get it on SERVICE" height="32" />](https://example.com/...)
+
+
+[Badge License]: https://img.shields.io/badge/-BY_SA_4.0-ae6c18.svg?style=for-the-badge&labelColor=EF9421&logoColor=white&logo=CreativeCommons
+[Badge Likes]: https://img.shields.io/github/stars/MarkedDown/Buttons?style=for-the-badge&labelColor=d0ab23&color=b0901e&logoColor=white&logo=Trustpilot
