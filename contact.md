@@ -41,6 +41,4 @@ is_contact: true
 via [![](Kofi-logo.png)](https://ko-fi.com)
 
 
-Lorem ipsum dolor sit amet.
-
-[Click me](http://www.google.com){: .btn}
+{% include button %}
