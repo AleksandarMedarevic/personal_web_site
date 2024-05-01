@@ -8,7 +8,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
-  padding: 10px 30px;
+  padding: 15px 30px;
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
@@ -17,6 +17,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  position: relative;
 }
 
 .button-1:hover {
@@ -26,17 +27,25 @@
 .icon{
   width:30px !important; 
   height:auto !important;
+  margin: -5px 0px 0px -10px;
+  position: absolute;
 }
 .img-kofi{
     width: 70px !important;
     height: auto !important;
     margin-bottom: -10px !important;
  }
+ .icon-text{
+    margin: -20px 0px 0px 30px;
+    font-weight: 600;
+ }
 </style>
 <!-- HTML !-->
 <hr>
 <h1>Donation</h1>
 
-<a target="_blank" href="https://ko-fi.com/aleksandar8232"><button  class="button-1" role="button"><span><img class="icon" src="543530.png" alt="icon"> </span><span style="margin-top: -15px;">Buy Me a Coffee</span></button></a>
+<h3>If you like my "service" and want to support me!</p>
+
+<a target="_blank" href="https://ko-fi.com/aleksandar8232"><button  class="button-1" role="button"><img class="icon" src="/543530.png" alt="icon"><span class="icon-text">Buy Me a Coffee</span></button></a>
 <br>
-<p> via <a href="https://ko-fi.com"><img class="img-kofi" src="Kofi-logo.png" alt="Ko-Fi"></a></p>
+<p> via <a href="https://ko-fi.com"><img class="img-kofi" src="/Kofi-logo.png" alt="Ko-Fi"></a></p>
