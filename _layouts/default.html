@@ -63,6 +63,12 @@
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
           ga('create', '{{ site.tracking_id }}', 'auto');
           ga('send', 'pageview');
+          const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+});
+
         </script>
     {% endif %}
 </body>
