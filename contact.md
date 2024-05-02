@@ -1,7 +1,7 @@
 ---
 layout: default
 is_contact: true
-title: Contact 
+title: Contact Us
 ---
 - Professional Email: [aleksandar_medarevic@batut.org.rs](mailto:aleksandar_medarevic@batut.org.rs)
 - Personal Email: [aco.batut@gmail.com](mailto:aco.batut@gmail.com)
