@@ -21,6 +21,7 @@
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
     <meta name="description" content="{{ desc }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
@@ -72,9 +73,7 @@
                     {% endif %}
                         </li>
                 {% endfor %}
-                <button id="dark-mode-toggle" class="dark-mode-toggle">
-                    <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
-                  </button>
+                <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
             </ul>
         </div>
         <div style="clear:both"></div>
@@ -107,45 +106,21 @@
           ga('create', '{{ site.tracking_id }}', 'auto');
           ga('send', 'pageview');
 
-          // check for saved 'darkMode' in localStorage
-let darkMode = localStorage.getItem('darkMode'); 
+          const toggle = document.getElementById('toggleDark');
+const body = document.querySelector('body');
 
-const darkModeToggle = document.querySelector('#dark-mode-toggle');
-
-const enableDarkMode = () => {
-  // 1. Add the class to the body
-  document.body.classList.add('darkmode');
-  // 2. Update darkMode in localStorage
-  localStorage.setItem('darkMode', 'enabled');
-}
-
-const disableDarkMode = () => {
-  // 1. Remove the class from the body
-  document.body.classList.remove('darkmode');
-  // 2. Update darkMode in localStorage 
-  localStorage.setItem('darkMode', null);
-}
- 
-// If the user already visited and enabled darkMode
-// start things off with it on
-if (darkMode === 'enabled') {
-  enableDarkMode();
-}
-
-// When someone clicks the button
-darkModeToggle.addEventListener('click', () => {
-  // get their darkMode setting
-  darkMode = localStorage.getItem('darkMode'); 
-  
-  // if it not current enabled, enable it
-  if (darkMode !== 'enabled') {
-    enableDarkMode();
-  // if it has been enabled, turn it off  
-  } else {  
-    disableDarkMode(); 
-  }
+toggle.addEventListener('click', function(){
+    this.classList.toggle('bi-moon');
+    if(this.classList.toggle('bi-brightness-high-fill')){
+        body.style.background = 'white';
+        body.style.color = 'black';
+        body.style.transition = '2s';
+    }else{
+        body.style.background = 'black';
+        body.style.color = 'white';
+        body.style.transition = '2s';
+    }
 });
-
         </script>
     {% endif %}
 </body>
