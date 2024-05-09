@@ -20,5 +20,5 @@ title: Contact
 
 1. [LinkedIn](https://www.linkedin.com/in/aleksandar-medarevic-6a6150243)
 2. [Twitter](https://twitter.com/amedarevic)
-3. [Facebook](https://www.facebook.com/acomfacetwitgoogleplus)
+3. [Facebook](https://www.facebook.com/profile.php?id=100090971615335)
 4. [OrcID](https://orcid.org/0000-0002-7483-3625)
