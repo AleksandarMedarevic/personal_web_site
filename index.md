@@ -11,7 +11,7 @@ title: Home
 
 Dear Visitor, Welcome to my website.
 
-Мy name is Aleksandar and I am a medical doctor and independent public health researcher with more than 10 years of experience in the public health field. My areas of interest include clinical coding, population based health management, health care emergencies, drug use, epidemiology<br/>and health economy.
+My name is Aleksandar and I am a medical doctor and independent public health researcher with more than 10 years of experience in the public health field. My areas of interest include clinical coding, population based health management, health care emergencies, drug use, epidemiology<br/>and health economy.
 
 These are some of the things I have made and done so far.
 They will probably come back to haunt me in a few years' time.
