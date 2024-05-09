@@ -19,7 +19,7 @@ sass:
 
 nav:
   - name: "Home"
-    link: "Index"
+    link: "/"
   - name: "Publications"
     link: "publications"
   - name: "Resume"
